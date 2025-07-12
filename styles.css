@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ebebd3;
+  text-align: center;
+}
+
+#title {
+  font-size: 2.5em;
+  margin: 0.5em;
+}
+
+ul,
+ol {
+  list-style-position: inside;
+}
+
+ul li,
+ol li {
+  font-size: 1.2em;
+}
+
+a:hover {
+  color: #f95738;
+}
+
+.food-image {
+  margin: 15px;
+}
+
+.desc {
+  margin-bottom: 8px;
+}
+
+.desc.desc-title {
+  font-size: 1.5em;
+}
+
+.desc.desc-food {
+  margin-bottom: 24px;
+}
+
+.ingredients-title {
+  font-size: 1.5em;
+  margin-bottom: 4px;
+}
+
+.ingredients li {
+  margin: 8px 0;
+}
+
+.ingredients li:last-child {
+  margin-bottom: 24px;
+}
+
+.steps-title {
+  font-size: 1.5em;
+}
+
+.steps li {
+  margin: 8px 0;
+}
+
+.steps li:last-child {
+  margin-bottom: 24px;
+}
+
+#home {
+  padding: 24px;
+}
